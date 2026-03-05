@@ -25,7 +25,7 @@ body {
     --off-white: #f4f4f4;
 }
 .logo h2 {
-    color: #00308F; /* Standard brand blue */
+    color: #1a73e8; /* Standard brand blue */
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -40,21 +40,31 @@ body {
     font-weight: 500;
     transition: color 0.3s;
 }
-.nav-links a:hover {
-    color: #00308F;
-}
+
 .signup-btn {
-    background-color: #00308F;
-    color: white;
-    border: none;
-    padding: 0.6rem 1.2rem;
-    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #1a73e8;
+    border: 1px solid #dadce0;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
     cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, box-shadow 0.3s;
+
+}
+.pin{
+   color:#1a73e8;
 }
 .signup-btn:hover {
-    background-color: #002060;
+    background-color: #f8f9fa;
+    border-color:#d2e3fc;
+    
+    
 }
 .hero {
     height: 60vh;
