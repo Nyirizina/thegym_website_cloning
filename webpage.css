@@ -149,7 +149,7 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: bold;
 
 }
@@ -166,5 +166,13 @@ body {
 }
 .message-btn:hover {
     background-color: #6077a7;
+}
+.message2-bar{
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin-top: 2rem;
+    border: 2px solid #dadce0;
 }
 
